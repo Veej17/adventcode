@@ -47,9 +47,5 @@ for ent in entries:
 
     valu = first+second
     numbers.append(int(valu))
-total = sum(numbers)
-total2 = int()
-for i in numbers:
-    total2 += i
-print(total)
-print(total2)
+
+print(sum(numbers))
